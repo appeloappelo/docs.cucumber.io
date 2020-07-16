@@ -676,6 +676,8 @@ Using a JVM system property:
 
 ```shell
 mvn test -Dcucumber.filter.tags="@smoke and @fast"
+or in a gitLab.yml
+"mvn clean verify -Dcucumber.options=\"--tags '@smoke and @fast'\""
 ```
 
 Or an environment variable:
